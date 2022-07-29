@@ -17,5 +17,6 @@ app.listen(port, host, () => {
 
   connect();
 
+  // add router here
   router(app);
 });
